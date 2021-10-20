@@ -363,7 +363,7 @@ contract Wasdaq is Context, IBEP20, Ownable {
     _name = "Wasdaq";
     _symbol = "WSDQ";
     _decimals = 9;
-    _totalSupply = 1000000000 * 10**9;
+    _totalSupply = 150000000 * 10**9;
     _balances[msg.sender] = _totalSupply;
     _gatekeeper = IGatekeeper(0);
     _isGatekeeperEnabled = false;
